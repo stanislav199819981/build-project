@@ -1,0 +1,11 @@
+.partBuild {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 5px;
+  justify-content: space-around;
+  margin-bottom: 30px; 
+  width: 300px;
+  padding-bottom: 5px;
+  padding-top:5px;
+}

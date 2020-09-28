@@ -1,0 +1,58 @@
+.button {
+    background-color:  #A9C6CE;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    align-self:center;
+    border-radius: 10px;
+}
+form > .button{
+    margin-top: 10px;
+}
+
+
+/* RoundButton */
+
+.buttonRound{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .button_buttonRound{
+      background-color:  #A9C6CE; ;
+      padding: 30px 30px ;
+      cursor: pointer;
+      border-radius: 50%;
+      
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .buttonRound > .button_buttonRound > span::before,
+  .buttonRound > .button_buttonRound > span span::after
+   {
+    content: '';
+   }
+  
+   .buttonRound > .button_buttonRound > span{
+     display: flex;
+     justify-content: center;
+     align-content: center;
+   }
+  
+  .buttonRound > .button_buttonRound > span,
+  .buttonRound > .button_buttonRound > span::before,
+  .buttonRound > .button_buttonRound > span::after
+   {
+    width: 40px; 
+    height: 2px;
+    background-color: #222222;
+  }
+  
+  .templateButton > .buttonRound > span::before {
+    translate: rotate(90deg);
+  }
+  
