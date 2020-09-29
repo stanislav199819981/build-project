@@ -34,6 +34,23 @@
 .label_field {
     padding: 5px 0;
 }
+/* checkbox */
+.input_checkboks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+.checkboks_field {
+    color: aqua;
+}
+.checkboks_field:hover {
+    opacity: 0.5;
+}
+.checkboks_field:active {
+    color: rebeccapurple;
+}
+/* active окрашення */
 /* media */
 @media (max-width: 440px) {
     .input_field {
