@@ -32,20 +32,25 @@
 }
 /* label */
 .label_field {
-    padding: 5px 0;
+    padding: 5px;
+}
+.input_field.price-label {
+    
+    display: flex;
+    align-self: end;
+}
+.table_input {
+    border: 10px solid transparent;
+}
+.td_checkboks {
+    width: 4%;
+}
+.td_price {
+    width: 20%;
 }
 /* checkbox */
-.input_checkboks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-}
 .checkboks_field {
     color: aqua;
-}
-.checkboks_field:hover {
-    opacity: 0.5;
 }
 .checkboks_field:active {
     color: rebeccapurple;
